@@ -5,14 +5,14 @@ Modern Blogger numbered pagination
 ## How to use
 ``` xml
 <style>
-//<![CDATA[
+/*<![CDATA[*/
 #blog-pager {
   padding: 13px 0
 }
 
 #blog-pager span {
   display: inline-block;
-  margin-left: 5px;
+  margin-right: 5px;
   line-height: 40px;
   white-space: nowrap;
   transition: all .3s ease
@@ -21,7 +21,7 @@ Modern Blogger numbered pagination
 #blog-pager .showPageOf {
   font-size: 14px;
   color: #757575;
-  margin-left: 15px
+  margin-right: 15px
 }
 
 #blog-pager .pageNum {
@@ -51,7 +51,7 @@ Modern Blogger numbered pagination
 #blog-pager .pageNum:not(.current):not(.delimiter):hover {
   background: #d6d6d6
 }
-//]]>
+/*]]>*/
 </style>
 ```
 ``` xml
