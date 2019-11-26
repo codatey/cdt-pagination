@@ -66,5 +66,5 @@ var paginationConfig = {
 };
 //]]>
 </script>
-<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-paginaton@1.0/dist/cdt-pagination.min.js'/>
+<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-paginaton@1.1.0/dist/cdt-pagination.min.js'/>
 ```
