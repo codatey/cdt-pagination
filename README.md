@@ -25,8 +25,8 @@ var paginationConfig = {
 //]]>
 </script>
 <script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@1.2.1/dist/cdt-pagination.min.js'/>
-# Settings
 ```
+# Settings
 | Option         | Type    | Default          |
 |----------------|---------|------------------|
 | selector       | string  | 'blog-pager'     |
