@@ -4,25 +4,34 @@
 Modern Blogger numbered pagination
 ## Usage
 ``` xml
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+
 <style>
 /*<![CDATA[*/
-#blog-pager.active{overflow:hidden;font-size:14px}
-#blog-pager.active span{float:right;line-height:35px;transition:all .3s ease}
-#blog-pager span.showPageOf{font-size:12px;color:#757575;margin-left:10px}
-#blog-pager span.pageNum{width:35px;background:#eee;text-align:center;border-radius:50%;margin-left:3px}
-#blog-pager span.pageNum:not(.current):not(.delimiter):hover{background:#d6d6d6}
-#blog-pager span.pageNum a{display:block;color:#545454}
-#blog-pager span.pageNum.current{background:#d33;color:#fff}
+#blog-pager.active{font-size:0}
+#blog-pager.active span{display:inline-block;white-space:nowrap;font-size:1rem;line-height:35px;margin-left:5px}
+#blog-pager span.showPageOf{margin-left:15px;font-size:14px;color:#666}
+#blog-pager span.pageNum{background:#fff;border-radius:3px;text-align:center;box-shadow:0 0 0 1px #f0f0f0}
+#blog-pager span.pageNum.current{background:#2196F3;color:#fefefe;cursor:default;padding:0 10px}
+#blog-pager span.pageNum a{color:#757575;display:block;padding:0 10px}
+#blog-pager span.pageNum a:hover{color:#545454;background:#f0f0f0}
+#blog-pager span.inStyle{cursor:default;padding:0 5px}
 /*]]>*/
 </style>
-```
-``` xml
+
 <script>
-//<![CDATA[
+/*<![CDATA[*/
 var paginationConfig = {
-  // settings
-};
-//]]>
+  perPage: 10,
+  showFirstPage: true,
+  showLastPage: true,
+  showNav: true,
+  text_prev: "<i class='fa fa-angle-right'></i>",
+  text_next: "<i class='fa fa-angle-left'></i>",
+  text_lastPage: "<i class='fa fa-angle-double-left'></i>",
+  text_firstPage: "<i class='fa fa-angle-double-right'></i>"
+}
+/*]]>*/
 </script>
 <script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@1.2.1/dist/cdt-pagination.min.js'/>
 ```
