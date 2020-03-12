@@ -1,56 +1,18 @@
 <p align="center"><a href="#" target="_blank"><img width="140" src="/logo.png"></a></p>
 
-# Cdt Blogger pagination
+# CDT Blogger pagination
 Modern Blogger numbered pagination
-## How to use
+## Usage
 ``` xml
 <style>
 /*<![CDATA[*/
-#blog-pager {
-  padding: 13px 0
-}
-
-#blog-pager span {
-  display: inline-block;
-  margin-right: 5px;
-  line-height: 40px;
-  white-space: nowrap;
-  transition: all .3s ease
-}
-
-#blog-pager .showPageOf {
-  font-size: 14px;
-  color: #757575;
-  margin-right: 15px
-}
-
-#blog-pager .pageNum {
-  background: #eee;
-  width: 40px;
-  text-align: center;
-  border-radius: 50%
-}
-
-#blog-pager .pageNum a {
-  display: block;
-  color: #545454
-}
-
-#blog-pager .pageNum.current {
-  background: #d33;
-  color: #fefefe;
-  cursor: default
-}
-
-#blog-pager .pageNum.delimiter {
-  background: none;
-  cursor: default;
-  width: auto
-}
-
-#blog-pager .pageNum:not(.current):not(.delimiter):hover {
-  background: #d6d6d6
-}
+#blog-pager.active{overflow:hidden;font-size:14px}
+#blog-pager.active span{float:right;line-height:35px;transition:all .3s ease}
+#blog-pager span.showPageOf{font-size:12px;color:#757575;margin-left:10px}
+#blog-pager span.pageNum{width:35px;background:#eee;text-align:center;border-radius:50%;margin-left:3px}
+#blog-pager span.pageNum:not(.current):not(.delimiter):hover{background:#d6d6d6}
+#blog-pager span.pageNum a{display:block;color:#545454}
+#blog-pager span.pageNum.current{background:#d33;color:#fff}
 /*]]>*/
 </style>
 ```
@@ -58,13 +20,24 @@ Modern Blogger numbered pagination
 <script>
 //<![CDATA[
 var paginationConfig = {
-  text: {
-    page: "Page",
-    of : "of"
-  },
-  perPage: 8
+  // settings
 };
 //]]>
 </script>
-<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-paginaton@1.1.0/dist/cdt-pagination.min.js'/>
+<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@1.2.1/dist/cdt-pagination.min.js'/>
+# Settings
 ```
+| Option         | Type    | Default          |
+|----------------|---------|------------------|
+| selector       | string  | 'blog-pager'     |
+| text_page      | string  | 'الصفحة'         |
+| text_of        | string  | 'من'             |
+| text_prev      | string  | 'السابق'         |
+| text_next      | string  | 'التالي'         |
+| text_firstPage | string  | 'الصفحة الأولى'  |
+| text_lastPage  | string  | 'الصفحة الأخيرة' |
+| perPage        | number  | 8                |
+| showPageOf     | boolean | true             |
+| showNav        | boolean | false            |
+| showFirstPage  | boolean | false            |
+| showLastPage   | boolean | false            |
