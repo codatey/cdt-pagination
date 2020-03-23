@@ -33,7 +33,7 @@ var paginationConfig = {
 }
 /*]]>*/
 </script>
-<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@1.2.1/dist/cdt-pagination.min.js'/>
+<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@1.2.2/dist/cdt-pagination.min.js'/>
 ```
 # Settings
 | Option         | Type    | Default          |
