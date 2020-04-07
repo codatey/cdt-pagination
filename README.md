@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank"><img width="140" src="/logo.png"></a></p>
+<p align="center"><a href="#" target="_blank"><img width="140" alt='cdt-pagination logo' src="/logo.png"></a></p>
 
 # CDT Blogger pagination
 Modern Blogger numbered pagination
