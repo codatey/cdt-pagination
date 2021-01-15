@@ -16,6 +16,7 @@ Put this code after the default pagination
 ```
 
 ## Options
+
 | Configuration options          | Value type    | Default value      |
 |-----------------|---------|--------------|
 | `selector`        | <sub>String  | "blog-pager" |
