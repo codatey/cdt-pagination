@@ -36,3 +36,4 @@ Put this code after the default pagination
 | `showEllipsis`    | <sub>Boolean | true         |
 | `showLastPage`    | <sub>Boolean | true         |
 | `ellipsis`        | <sub>String  | "..."        |
+| `updateTitle`     | <sub>Boolean  | false        |
