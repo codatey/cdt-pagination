@@ -12,7 +12,7 @@ Put this code after the default pagination
         perPage: 10
     }
 </script>
-<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@2.1.0/dist/cdt-pagination.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/codatey/cdt-pagination@2.2.1/dist/cdt-pagination.min.js'></script>
 ```
 
 ## Options
@@ -37,3 +37,4 @@ Put this code after the default pagination
 | `showLastPages`    | <sub>Boolean | true         |
 | `ellipsis`        | <sub>String  | "..."        |
 | `updateTitle`     | <sub>Boolean  | false        |
+| `matchMedia`      | <sub>Boolean, String   | false
