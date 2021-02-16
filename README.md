@@ -34,6 +34,6 @@ Put this code after the default pagination
 | `navFirstContent` | <sub>String  | "البداية"    |
 | `navLastContent`  | <sub>String  | "النهاية"    |
 | `showEllipsis`    | <sub>Boolean | true         |
-| `showLastPage`    | <sub>Boolean | true         |
+| `showLastPages`    | <sub>Boolean | true         |
 | `ellipsis`        | <sub>String  | "..."        |
 | `updateTitle`     | <sub>Boolean  | false        |
